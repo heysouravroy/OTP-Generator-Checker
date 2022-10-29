@@ -50,7 +50,7 @@ def check():
             otp.set("")
 
 root.geometry("400x350")
-root.title("OTP-Checker")
+root.title("Otp-Checker")
 
 num=StringVar()
 otp=StringVar()
@@ -71,7 +71,7 @@ f3.pack(fill=BOTH,padx=5,pady=10)
 
 f4=Frame(root)
 Button(f4,text="Send OTP",command=send,font="SegoeUI 10 bold",fg="grey").pack(padx=20,pady=10,side=LEFT)
-Button(f4,text="Check OTP",command=check,font="SegoeUI 10 bold",fg="grey").pack(padx=40,pady=10,side=LEFT)
+Button(f4,text="Check OTP",command=check,font="SegoeUI 10 bold",fg="black").pack(padx=40,pady=10,side=LEFT)
 f4.pack()
 
 
